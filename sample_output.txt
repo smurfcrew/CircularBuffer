@@ -1,0 +1,32 @@
+EXCEPTION: Cannot read from empty buffer!
+ | *12 | +0 | 
+ | *+12 | 11 | 
+ | *14 | +11 | 
+Resize successful
+ | *14 | 11 | +0 | 0 | 0 | 0 | 
+Resize successful
+Read: 14
+ | 14 | *11 | +0 | 0 | 0 | 
+Read: 11
+ | 14 | 11 | *+0 | 0 | 0 | 
+Read: 11
+ | 14 | 11 | *+0 | 0 | 0 | 
+ | 14 | 11 | *5 | +0 | 0 | 
+Read: 5
+ | 14 | 11 | 5 | *+0 | 0 | 
+ | 14 | 11 | 5 | *2 | +0 | 
+ | +14 | 11 | 5 | *2 | 9 | 
+Read: 2
+ | +14 | 11 | 5 | 2 | *9 | 
+Read: 9
+ | *+14 | 11 | 5 | 2 | 9 | 
+Read: 9
+ | *+14 | 11 | 5 | 2 | 9 | 
+Resize failed
+ | *+14 | 11 | 5 | 2 | 9 | 
+ | *15 | +11 | 5 | 2 | 9 | 
+ | *2.5 | 1.1 | +0 | 0 | 
+Join successful
+ | *2.5 | 1.1 | 15 | 11 | 5 | 2 | 9 | +0 | 0 | 
+ | *+0 | 0 | 0 | 0 | 0 | 
+EXCEPTION: Cannot read from empty buffer!

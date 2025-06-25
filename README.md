@@ -1,7 +1,7 @@
 # Circular Buffer
 
 ## Note
-The rBuffer.h file is/was the only file that I worked on, and the main.cp was provided as this was a project for a data structures class. This project was to implement a circular buffer using templates and dynamic memory allocation.
+The rBuffer.h file is/was the only file that I worked on, and the main.cpp was provided as this was a project for a data structures class. This project was to implement a circular buffer using templates and dynamic memory allocation.
 
 ## Description 
 In this program we are going to implement a ring buffer or circular buffer. The specialty of this kind of buffer is that it loops over itself creating a circular or ring structure. When the last location in this buffer is filled up, it loops around and starts over from the beginning. This type of buffer is commonly used for streaming.
